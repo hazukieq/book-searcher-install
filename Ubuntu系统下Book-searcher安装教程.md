@@ -44,12 +44,12 @@
    axel -n 20 https://github.com/zlib-searcher-new/index/releases/download/0.9.1/index-0.9.1.z13
    axel -n 20 https://github.com/zlib-searcher-new/index/releases/download/0.9.1/index-0.9.1.zip
    ```
+   下载完成后，列表如下: 
+    ![下载文件列表](images/image-20230528123204382.png)
 
-​	 注意：下载网速可能会不太稳定(下载时间视个人网络环境)，反正我在这里卡了挺久的......所以一定要有耐心\^_\^
+   注意：下载网速可能会不太稳定(下载时间视个人网络环境)，反正我在这里卡了挺久的......所以一定要有耐心 \^_\^
 
-​	下载完后，列表如下：	![下载文件列表](images/image-20230528123204382.png)
-
-​	
+   
 
 4. 创建索引目录，解压缩索引文件
 
@@ -64,43 +64,40 @@
    #-o和导出路径是相连接的!
    7za e index-0.9.1.zip -o索引目录存储路径
    ```
+   
 
    运行解压命令，输出信息以下：
-
+   
    ![解压输出信息](images/image-20230528123727279.png)
+
 
 
 
 4. 运行 Book-searcher，配置索引、IPFS网关
 
-   > Book-searcher 安装成功的话，你可以在桌面上找到该软件。
-   >
-   > 你也可以使用 `book-searcher &` 命令运行
+      > Book-searcher 安装成功的话，你可以在桌面上找到该软件。
+      >
+      > 你也可以使用 `book-searcher &` 命令运行
 
-- 配置索引，选择刚才你创建的索引目录
+   - 配置索引，选择刚才你创建的索引目录
+     ![配置索引](images/image-20230528122511359.png)
 
-  ![配置索引](images/image-20230528122511359.png)
+   - 配置 IPFS 网关，IPFS网关的作用是生成下载链接。请复制以下链接，粘贴到 Book-searcher 软件网关配置处
 
-  
+     ```bash
+     http://cloudflare-ipfs.com  
+     http://ipfs.io  
+     http://dweb.link  
+     http://gateway.pinata.cloud  
+     https://ipfs.best-practice.se
+     ```
 
-- 配置 IPFS 网关，IPFS网关的作用是生成下载链接。请复制以下链接，粘贴到 软件中的网关配置处
-
-  ```shell
-  http://cloudflare-ipfs.com  
-  http://ipfs.io  
-  http://dweb.link  
-  http://gateway.pinata.cloud  
-  https://ipfs.best-practice.se
-  ```
-
-  
-
-  ![IPFS网关配置结果](images/image-20230528121924597.png)
+     ![IPFS网关配置结果](images/image-20230528121924597.png)
 
 
 
-6.  待上面配置完成后，重启软件后测试一下配置是否生效
+6. 待上面配置完成后，重启软件后测试一下配置是否生效
 
-   ![配置测试](/images/image-20230528122801730.png)
+   ![配置测试](images/image-20230528122801730.png)
 
    
