@@ -13,7 +13,7 @@
 
    
 
-2. 安装 Book_searcher安装包
+2. 安装 Book-searcher安装包
 
    ```shell
    sudo dpkg -i Book_searcher安装包路径
@@ -47,7 +47,7 @@
 
 ​	 注意：下载网速可能会不太稳定(下载时间视个人网络环境)，反正我在这里卡了挺久的......所以一定要有耐心\^_\^
 
-​	下载完后，列表如下：	![image-20230528123204382](/home/hazukie/gitprojects/book-searcher-install/image-20230528123204382.png)
+​	下载完后，列表如下：	![下载文件列表](images/image-20230528123204382.png)
 
 ​	
 
@@ -67,7 +67,7 @@
 
    运行解压命令，输出信息以下：
 
-   ![image-20230528123727279](/home/hazukie/gitprojects/book-searcher-install/image-20230528123727279.png)
+   ![解压输出信息](images/image-20230528123727279.png)
 
 
 
@@ -79,7 +79,7 @@
 
 - 配置索引，选择刚才你创建的索引目录
 
-  ![image-20230528122511359](/home/hazukie/gitprojects/book-searcher-install/image-20230528122511359.png)
+  ![配置索引](images/image-20230528122511359.png)
 
   
 
@@ -95,12 +95,12 @@
 
   
 
-  ![IPFS网关配置结果](/home/hazukie/gitprojects/book-searcher-install/image-20230528121924597.png)
+  ![IPFS网关配置结果](images/image-20230528121924597.png)
 
 
 
 6.  待上面配置完成后，重启软件后测试一下配置是否生效
 
-   ![image-20230528122801730](/home/hazukie/gitprojects/book-searcher-install/image-20230528122801730.png)
+   ![配置测试](/images/image-20230528122801730.png)
 
    
