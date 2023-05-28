@@ -25,7 +25,7 @@ Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-
 2. Install Book-searcher installation package
 
    ```shell
-   sudo dpkg -i Book_searcher_package_path installation_package_path
+   sudo dpkg -i Book_searcher_installation_package_path
    ```
 
 
