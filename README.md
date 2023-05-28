@@ -107,5 +107,3 @@ Ubuntu系统下 Book Searcher 安装教程(Install book-searcher on the Ubuntu 2
 
    ![配置测试](images/image-20230528122801730.png)
 
-   
-

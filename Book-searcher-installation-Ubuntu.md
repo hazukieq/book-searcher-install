@@ -1,6 +1,10 @@
-### Book Searcher Install(Translated by Newbing)
+### Book Searcher Install
+
+> <small>**Translated by Newbing**</small>
 
 Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-searcher on the Ubuntu 23.04 platform)
+
+[go back  Chinese version](./README.md)
 
 ---
 
@@ -21,13 +25,13 @@ Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-
 2. Install Book-searcher installation package
 
    ```shell
-   sudo dpkg -i Book_searcher installation package path
+   sudo dpkg -i Book_searcher_package_path installation_package_path
    ```
 
 
 
 
-3. Download `Zlibrary book index file`, corresponding project link: https://github.com/zlib-searcher-new/index
+3. Download `Zlibrary index file`, corresponding project link: https://github.com/zlib-searcher-new/index
 
    **Note: All index block files must be in the same folder directory, otherwise they may fail to decompress**
 
@@ -64,12 +68,12 @@ Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-
 
    ```shell
    # Create an index directory (file storage location is optional)
-   mkdir index directory storage path
-   cd index directory storage path
+   mkdir index_directory_storage_path
+   cd index_directory_storage_path
    
    # Unzip the index file
    #-o and export path are connected!
-   7za e index-0.9 .zip -oindex directory storage path
+   7za e index-0.9 .zip -oindex_directory_storage_path
    ```
    Run the Unzip command after, you will see the outputs as follows:
    ![outputs](images/image-20230528123727279.png)
