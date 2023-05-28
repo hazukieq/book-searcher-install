@@ -55,7 +55,7 @@ Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-
    axel -n 20 https://github.com/zlib-searcher-new/index/releases/download/0.9.1/index-0.9.1.zip
    ```
    After downloading, the list is as follows: 
-    ![Download file list](images/image-20230528123204382.png)
+    ![Download file list](https://www.hazukieq.top/book_searcher_images/image-20230528123204382.png)
 
    <small>**Note:** The download speed may not be very stable (the download time depends on your personal network environment), anyway I got stuck here for a long time......so you have to be patient \^_\^</small>
 
@@ -76,7 +76,7 @@ Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-
    7za e index-0.9 .zip -oindex_directory_storage_path
    ```
    Run the Unzip command after, you will see the outputs as follows:
-   ![outputs](images/image-20230528123727279.png)
+   ![outputs](https://www.hazukieq.top/book_searcher_images/image-20230528123727279.png)
 
    
 
@@ -86,7 +86,7 @@ Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-
       > You can also use `book-searcher &` command to run it
 
       - Configure index, select the index directory you just created
-        ![Configure index](images/image-20230528122511359.png)
+        ![Configure index](https://www.hazukieq.top/book_searcher_images/image-20230528122511359.png)
 
       - Configure IPFS gateway, IPFS gateway is used to generate download links.Please copy and paste the following links to the Book Searcher software gateway configuration
         ```bash
@@ -96,11 +96,11 @@ Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-
         http://gateway.pinata.cloud  
         https://ipfs.best-practice.se
         ```
-        ![IPFS gateway configuration result](images/image-20230528121924597.png)
+        ![IPFS gateway configuration result](https://www.hazukieq.top/book_searcher_images/image-20230528121924597.png)
 
 
 
 
 6. After completing the above configuration, restart the software and test whether the configuration takes effect
 
-    ![Configuration test](images/image-20230528122801730.png)
+    ![Configuration test](https://www.hazukieq.top/book_searcher_images/image-20230528122801730.png)
