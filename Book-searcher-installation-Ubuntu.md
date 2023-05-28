@@ -1,4 +1,4 @@
-### Book Searcher Install
+### Book Searcher Install(Translated by Newbing)
 
 Tutorial on how to install Book Searcher on Ubuntu 23.04 platform (Install book-searcher on the Ubuntu 23.04 platform)
 
