@@ -1,4 +1,12 @@
-#### Ubuntu系统下 Book-searcher 安装教程
+### Book Searcher Install
+
+Ubuntu系统下 Book Searcher 安装教程(Install book-searcher on the Ubuntu 23.04 platform)
+
+##### [click here to get English version](./Book-searcher-installation-Ubuntu.md)
+
+---
+
+
 
 1. 前往 [Book-searcher 开源项目 Release 页面](https://github.com/book-searcher-org/book-searcher/releases) 下载后缀名为 `amd64.deb` 的安装包
 
@@ -47,7 +55,9 @@
    下载完成后，列表如下: 
     ![下载文件列表](images/image-20230528123204382.png)
 
-   注意：下载网速可能会不太稳定(下载时间视个人网络环境)，反正我在这里卡了挺久的......所以一定要有耐心 \^_\^
+   
+
+   <small>注意：下载网速可能会不太稳定(下载时间视个人网络环境)，反正我在这里卡了挺久的......所以一定要有耐心 \^_\^</small>
 
    
 
@@ -66,14 +76,14 @@
    ```
    
 
-   运行解压命令，输出信息以下：
+   运行解压命令，输出信息如下：
    
    ![解压输出信息](images/image-20230528123727279.png)
 
 
 
 
-4. 运行 Book-searcher，配置索引、IPFS网关
+5. 运行 Book-searcher，配置索引、IPFS网关
 
       > Book-searcher 安装成功的话，你可以在桌面上找到该软件。
       >
